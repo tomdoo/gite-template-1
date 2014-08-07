@@ -12,5 +12,9 @@
 				<?php endif;*/ ?>
 			</li>
 		<?php endforeach; ?>
+		<?php if ($first) : ?>
+			<li><?php echo $this->Html->link('Booking', array('controller' => 'bookings')); ?></li>
+			<li><?php echo $this->Html->link('Contact', array('controller' => 'contacts')); ?></li>
+		<?php endif; ?>
 	</ul>
 <?php endif; ?>

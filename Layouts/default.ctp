@@ -16,6 +16,7 @@
 		// styles
 		echo $this->Html->css('bootstrap.min');
 		echo $this->Html->css('bootstrap-theme.min');
+		echo $this->Html->css('responsive-calendar');
 		echo $this->Html->css('styles');
 		// js
 		echo $this->Html->script('jquery.min', array('inline' => false));

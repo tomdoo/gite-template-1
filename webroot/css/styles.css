@@ -1,6 +1,10 @@
+body {
+	padding-top: 61px;
+}
 #container {
-	background-color: #333;
+	background-color: #222;
 	background-image: url(../img/body-texture.png);
+	min-height: 100%;
 }
 #header {
 	background-color: #900;
@@ -28,9 +32,6 @@
 	color: #fff;
 	line-height: 60px;
 	float: right;
-}
-#banner {
-	margin-top: 61px;
 }
 #banner img {
 	max-width: 100%;
@@ -70,6 +71,8 @@
 	font-family: "Lora",serif;
 	font-size: 14px;
 	width: 100%;
+	position: fixed;
+	z-index: 1;
 }
 #menu .menu-toggle {
 	line-height: 40px;
@@ -79,7 +82,7 @@
 	line-height: 30px;
 }
 #menu .list-inline > li {
-	line-height: 60px;
+	line-height: 40px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -91,9 +94,37 @@
 	color: #a3a3a3;
 }
 #content {
-	color: #a3a3a3;
+	color: #fff;
 	font-family: Times,Georgia,Courier,serif;
 }
+	.month-selector a {
+		color: #fff;
+	}
+	.month-selector a:hover {
+		color: #a3a3a3;
+	}
+	.calendar {
+		margin-top: 15px;
+	}
+	.calendar th {
+		font-size: 18px;
+		text-align: center;
+	}
+	.calendar td.day-full, .calendar td.day-partial, .calendar td.day-empty {
+		font-size: 16px;
+		text-align: center;
+		color: #fff;
+		border: 1px solid #ddd;
+	}
+	.calendar td.day-full {
+		background-color: #802424;
+	}
+	.calendar td.day-partial {
+		background-color: #994014;
+	}
+	.calendar td.day-empty {
+		background-color: #0D3009;
+	}
 #footer {
 	background-color: #900;
 	background-image: url(../img/header-texture.png);
