@@ -33,28 +33,4 @@ $(document).ready(function() {
 			slideTo(slideIndex);
 		});
 	}
-
-	/*if ($('.home_index .slideshow').length > 0) {
-        var slideTo = function(index) {
-            $('.slideshow').fadeOut(400);
-            $('.slideButton').removeClass('active');
-            $('#slideElement-'+index).fadeIn(400);
-            $('#slideButton-'+index).addClass('active');
-        }
-
-        // slide automatique
-        var automaticSlide = setInterval(function() {
-            var slideIndex = parseInt($('.slideButtons .active').attr('id').substring(12)) + 1;
-            if ($('#slideElement-'+slideIndex).length == 0) {
-                slideIndex = 0;
-            }
-            slideTo(slideIndex);
-        }, 8000);
-
-        // clic pour changer de slide
-        $('.slideWrapper').on('click', '.slideButton', function() {
-            var slideIndex = $(this).attr('id').substring(12);
-            slideTo(slideIndex);
-        });
-    }*/
 });
