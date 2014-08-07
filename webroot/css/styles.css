@@ -1,0 +1,65 @@
+#container {
+	background-color: #333;
+	background-image: url(../img/body-texture.png);
+}
+#header {
+	background-color: #900;
+	background-image: url(../img/header-texture.png);
+	border-bottom: 1px solid #111;
+	color: #fff;
+}
+#header h1 {
+	font-family: "Lora",serif;
+	font-size: 20px;
+	margin: 0;
+	line-height: 60px;
+}
+#header h1 small {
+	font-family: "Lato",sans-serif;
+	text-transform: uppercase;
+	text-align: right;
+	color: #fff;
+	line-height: 60px;
+	float: right;
+}
+#menu {
+	background-color: #191919;
+	background-image: url(../img/menu-texture.png);
+	border-bottom: 1px solid #222;
+	color: #fff;
+	text-align: center;
+	font-family: "Lora",serif;
+	font-size: 14px;
+}
+#menu .menu-toggle {
+	line-height: 40px;
+	cursor: pointer;
+}
+#menu .menu-toggle li {
+	line-height: 30px;
+}
+#menu .list-inline > li {
+	line-height: 60px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#menu a {
+	color: #fff;
+	text-decoration: none;
+}
+#menu .active > a, #menu a:hover {
+	color: #a3a3a3;
+}
+#content {
+	color: #a3a3a3;
+}
+#footer {
+	background-color: #900;
+	background-image: url(../img/header-texture.png);
+	border-top: 1px solid #111;
+	color: #fff;
+	line-height: 80px;
+}
+#footer small {
+	color: #a3a3a3;
+}
