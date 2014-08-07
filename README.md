@@ -1,5 +1,5 @@
 Gîte template for Gîte CMS
-##########################
+==========================
 
 A red and grey template for [Gîte CMS](https://github.com/tomdoo/gite-cms)
 

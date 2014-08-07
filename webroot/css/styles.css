@@ -7,12 +7,19 @@
 	background-image: url(../img/header-texture.png);
 	border-bottom: 1px solid #111;
 	color: #fff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
 }
 #header h1 {
 	font-family: "Lora",serif;
 	font-size: 20px;
 	margin: 0;
 	line-height: 60px;
+}
+#header h1 a {
+	color: #fff;
 }
 #header h1 small {
 	font-family: "Lato",sans-serif;
@@ -22,6 +29,38 @@
 	line-height: 60px;
 	float: right;
 }
+#banner {
+	margin-top: 61px;
+}
+#banner img {
+	max-width: 100%;
+}
+	.slidewrapper {
+		position: relative;
+		font-size: 48px;
+		color: #fff;
+		z-index: 5;
+	}
+	.slidewrapper .slide {
+		display: none;
+		position: absolute;
+		top: 0;
+	}
+	.slidewrapper img:first-child {
+		display: block;
+	}
+	.slidewrapper i {
+		position: absolute;
+		top: 40%;
+		cursor: pointer;
+		z-index: 7;
+	}
+	.slidewrapper .prev {
+		left: 15px;
+	}
+	.slidewrapper .next {
+		right: 15px;
+	}
 #menu {
 	background-color: #191919;
 	background-image: url(../img/menu-texture.png);
@@ -30,6 +69,7 @@
 	text-align: center;
 	font-family: "Lora",serif;
 	font-size: 14px;
+	width: 100%;
 }
 #menu .menu-toggle {
 	line-height: 40px;
@@ -52,6 +92,7 @@
 }
 #content {
 	color: #a3a3a3;
+	font-family: Times,Georgia,Courier,serif;
 }
 #footer {
 	background-color: #900;
