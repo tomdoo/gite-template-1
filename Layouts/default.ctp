@@ -16,7 +16,6 @@
 		// styles
 		echo $this->Html->css('bootstrap.min');
 		echo $this->Html->css('bootstrap-theme.min');
-		echo $this->Html->css('responsive-calendar');
 		echo $this->Html->css('styles');
 		// js
 		echo $this->Html->script('jquery.min', array('inline' => false));
@@ -50,8 +49,12 @@
 			</div>
 		</div>
 		<div id="content" class="container">
-			<?php echo $this->Session->flash(); ?>
-			<?php echo $this->fetch('content'); ?>
+			<div class="row">
+				<div class="col-lg-12">
+					<?php echo $this->Session->flash(); ?>
+					<?php echo $this->fetch('content'); ?>
+				</div>
+			</div>
 		</div>
 		<div id="footer" class="container-fluid">
 			<div class="container">

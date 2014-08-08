@@ -29,7 +29,7 @@ body {
 	font-family: "Lato",sans-serif;
 	text-transform: uppercase;
 	text-align: right;
-	color: #fff;
+	color: #a3a3a3;
 	line-height: 60px;
 	float: right;
 }
@@ -71,7 +71,7 @@ body {
 	font-family: "Lora",serif;
 	font-size: 14px;
 	width: 100%;
-	position: fixed;
+	position: relative;
 	z-index: 1;
 }
 #menu .menu-toggle {
@@ -97,6 +97,9 @@ body {
 	color: #fff;
 	font-family: Times,Georgia,Courier,serif;
 }
+	#content img {
+		max-width: 100%;
+	}
 	.month-selector a {
 		color: #fff;
 	}
@@ -126,6 +129,7 @@ body {
 		background-color: #0D3009;
 	}
 #footer {
+	margin-top: 15px;
 	background-color: #900;
 	background-image: url(../img/header-texture.png);
 	border-top: 1px solid #111;
