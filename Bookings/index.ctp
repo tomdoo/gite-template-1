@@ -1,4 +1,4 @@
-<h2>Bookings</h2>
+<h2><?php echo ___('bookings-title', 'Bookings'); ?></h2>
 
 <div class="container">
 	<div class="row">
@@ -19,27 +19,27 @@
 <table class="table calendar">
 	<thead>
 		<tr>
-			<th class="visible-xs">M</th>
-			<th class="visible-sm">Mon</th>
-			<th class="visible-md visible-lg">Monday</th>
-			<th class="visible-xs">T</th>
-			<th class="visible-sm">Tue</th>
-			<th class="visible-md visible-lg">Tuesday</th>
-			<th class="visible-xs">W</th>
-			<th class="visible-sm">Wed</th>
-			<th class="visible-md visible-lg">Wednesday</th>
-			<th class="visible-xs">T</th>
-			<th class="visible-sm">Thu</th>
-			<th class="visible-md visible-lg">Thursday</th>
-			<th class="visible-xs">F</th>
-			<th class="visible-sm">Fri</th>
-			<th class="visible-md visible-lg">Friday</th>
-			<th class="visible-xs">S</th>
-			<th class="visible-sm">Sat</th>
-			<th class="visible-md visible-lg">Saturday</th>
-			<th class="visible-xs">S</th>
-			<th class="visible-sm">Sun</th>
-			<th class="visible-md visible-lg">Sunday</th>
+			<th class="visible-xs"><?php echo ___('bookings-monday-s', 'M'); ?></th>
+			<th class="visible-sm"><?php echo ___('bookings-monday-m', 'Mon'); ?></th>
+			<th class="visible-md visible-lg"><?php echo ___('bookings-monday-l', 'Monday'); ?></th>
+			<th class="visible-xs"><?php echo ___('bookings-tuesday-s', 'T'); ?></th>
+			<th class="visible-sm"><?php echo ___('bookings-tuesday-m', 'Tue'); ?></th>
+			<th class="visible-md visible-lg"><?php echo ___('bookings-tuesday-l', 'Tuesday'); ?></th>
+			<th class="visible-xs"><?php echo ___('bookings-wednesday-s', 'W'); ?></th>
+			<th class="visible-sm"><?php echo ___('bookings-wednesday-m', 'Wed'); ?></th>
+			<th class="visible-md visible-lg"><?php echo ___('bookings-wednesday-l', 'Wednesday'); ?></th>
+			<th class="visible-xs"><?php echo ___('bookings-thursday-s', 'T'); ?></th>
+			<th class="visible-sm"><?php echo ___('bookings-thursday-m', 'Thu'); ?></th>
+			<th class="visible-md visible-lg"><?php echo ___('bookings-thursday-l', 'Thursday'); ?></th>
+			<th class="visible-xs"><?php echo ___('bookings-friday-s', 'F'); ?></th>
+			<th class="visible-sm"><?php echo ___('bookings-friday-m', 'Fri'); ?></th>
+			<th class="visible-md visible-lg"><?php echo ___('bookings-friday-l', 'Friday'); ?></th>
+			<th class="visible-xs"><?php echo ___('bookings-saturday-s', 'S'); ?></th>
+			<th class="visible-sm"><?php echo ___('bookings-saturday-m', 'Sat'); ?></th>
+			<th class="visible-md visible-lg"><?php echo ___('bookings-saturday-l', 'Saturday'); ?></th>
+			<th class="visible-xs"><?php echo ___('bookings-sunday-s', 'S'); ?></th>
+			<th class="visible-sm"><?php echo ___('bookings-sunday-m', 'Sun'); ?></th>
+			<th class="visible-md visible-lg"><?php echo ___('bookings-sunday-l', 'Sunday'); ?></th>
 		</tr>
 	</thead>
 	<tbody>

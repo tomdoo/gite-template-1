@@ -13,8 +13,8 @@
 			</li>
 		<?php endforeach; ?>
 		<?php if ($first) : ?>
-			<li><?php echo $this->Html->link('Booking', array('controller' => 'bookings')); ?></li>
-			<li><?php echo $this->Html->link('Contact', array('controller' => 'contacts')); ?></li>
+			<li><?php echo $this->Html->link(___('bookings-title', 'Bookings'), array('controller' => 'bookings')); ?></li>
+			<li><?php echo $this->Html->link(___('contacts-title', 'Contact us'), array('controller' => 'contacts')); ?></li>
 		<?php endif; ?>
 	</ul>
 <?php endif; ?>
