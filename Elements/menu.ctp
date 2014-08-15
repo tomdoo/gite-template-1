@@ -6,7 +6,7 @@
 	<ul class="<?php echo $first ? 'list-inline' : ''; ?>">
 		<?php foreach ($menu as $element) : ?>
 			<li>
-				<?php echo $this->Html->link($element['Post']['title'], array('controller' => 'pages', 'action' => 'show', $element['Post']['slug'])); ?>
+				<?php echo $this->Html->link($element['Post']['title'], array('controller' => 'pages', 'action' => 'view', $element['Post']['slug'])); ?>
 				<?php /*if (!empty($element['children'])) : ?>
 					<?php echo $this->element('menu', array('menu' => $element['children'])); ?>
 				<?php endif;*/ ?>
