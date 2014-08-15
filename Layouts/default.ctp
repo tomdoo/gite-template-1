@@ -7,7 +7,7 @@
 			<?php echo $page_title; ?> - 
 		<?php endif; ?>
 		<?php echo $title_for_layout; ?>
-	</title>
+	</title>	
 	<?php
 		echo $this->Html->meta('icon');
 		// google fonts
@@ -27,6 +27,7 @@
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 	?>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div id="container">
@@ -74,6 +75,6 @@
 		</script>
 	<?php endif; ?>
 	<?php echo $this->fetch('script'); ?>
-	<?php echo $this->element('sql_dump'); ?>
+	<?php //echo $this->element('sql_dump'); ?>
 </body>
 </html>
