@@ -1,7 +1,7 @@
 Gîte template for Gîte CMS
 ==========================
 
-A red and grey template for [Gîte CMS](https://github.com/tomdoo/gite-cms)
+A red and grey template for [Gîte CMS](https://github.com/tomdoo/gite-cms) specially made for the [Gite La Roque](http://aveyron-gite.fr)
 
 Installation
 ------------
