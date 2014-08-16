@@ -34,6 +34,7 @@
 		<div id="header" class="container-fluid">
 			<div class="container">
 				<h1><?php echo $title_for_layout; ?><small class="hidden-xs hidden-sm"><?php echo $baseline; ?></small></h1>
+				<?php echo $this->element('languages'); ?>
 			</div>
 		</div>
 		<?php if (!empty($page_homepage)) : ?>

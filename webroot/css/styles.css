@@ -21,7 +21,7 @@ body {
 	font-family: "Lora",serif;
 	font-size: 20px;
 	margin: 0;
-	line-height: 60px;
+	line-height: 42px;
 }
 #header h1 a {
 	color: #fff;
@@ -33,6 +33,13 @@ body {
 	color: #a3a3a3;
 	line-height: 60px;
 	float: right;
+}
+#header .languages {
+	margin-bottom: 5px;
+	line-height: 11px;
+}
+#header .languages li img {
+	border: 1px solid #333;
 }
 #banner img {
 	max-width: 100%;
