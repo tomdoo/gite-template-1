@@ -3,7 +3,7 @@ body {
 }
 #container {
 	background-color: #222;
-	background-image: url(../img/body-texture.png);
+	background-image: url(../img/body-texture.gif);
 	min-height: 100%;
 }
 #header {
